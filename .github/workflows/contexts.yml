@@ -4,4 +4,4 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "actor is ${{ github.actor }}: ${{ github.hcad_rcf }}"
+      - run: echo "actor is ${{ github.actor }}: ${{ github.head_ref }}"
