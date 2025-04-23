@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Go
+      - name: Set up Go #a
         uses: actions/setup-go@v5
         with:
           go-version: '1.22'
