@@ -1,5 +1,6 @@
 name: Test
-on: pull_request:
+on: 
+  pull_request:
   paths: ['go/**/*.go'] # Goファイル変更時のみ
 jobs:
   test:
