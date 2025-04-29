@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: date > date.txt # runはシェルコマンドを実行する
-      - uses: actions/upload-artifact@v3 # usesはアクションを実行する # actionsはGitHubが提供するアクション
+      - uses: actions/upload-artifact@v4 # usesはアクションを実行する # actionsはGitHubが提供するアクション
         with:
           name: uploaded
           path: date.txt
